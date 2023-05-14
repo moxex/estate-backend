@@ -40,6 +40,8 @@ THIRD_PARTY_APPS = [
     'django_filters',
     'django_countries',
     'phonenumber_field',
+    'djoser',
+    'rest_framework_simplejwt',
 ]
 
 LOCAL_APPS = [
@@ -47,7 +49,7 @@ LOCAL_APPS = [
     'apps.enquiries',
     'apps.profiles',
     'apps.properties',
-    'apps.rating',
+    'apps.ratings',
     'apps.users',
 ]
 
