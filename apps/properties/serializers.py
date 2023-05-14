@@ -61,4 +61,3 @@ class PropertyViewSerializer(serializers.ModelSerializer):
     class Meta:
         model = PropertyViews
         exclude = ['updated_at', 'pkid']
-
